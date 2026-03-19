@@ -5,6 +5,7 @@ SENTINEL-AI : Cognitive Defense for the AI Era
 ## Hackathon
 Hack4Impact 2025  
 Domain: Cybersecurity & Ethical AI Systems
+Track: Smart Technology for a Sustainable World.
 
 ## Team Name
 Dhurandhar
