@@ -1,0 +1,382 @@
+[
+  {
+    "id": "DET-002",
+    "detected_at": "2026-03-20T13:13:29.235423",
+    "platform": "twitter",
+    "content_hash": "2b3992a3615a4ce2",
+    "ai_probability": 0.52,
+    "model_attribution": "llama",
+    "model_confidence": "medium",
+    "risk_level": "medium",
+    "harm_score": 0.609,
+    "cluster_id": null,
+    "actor_id": "user_026",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 397,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-012",
+    "detected_at": "2026-03-20T13:06:29.235648",
+    "platform": "facebook",
+    "content_hash": "a2e0ee4ef2404c57",
+    "ai_probability": 0.395,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.433,
+    "cluster_id": null,
+    "actor_id": "bot_011",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 344,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-003",
+    "detected_at": "2026-03-20T11:39:29.235452",
+    "platform": "discord",
+    "content_hash": "7aa3a24d6dab48b6",
+    "ai_probability": 0.92,
+    "model_attribution": "llama",
+    "model_confidence": "high",
+    "risk_level": "critical",
+    "harm_score": 0.552,
+    "cluster_id": "CL-05",
+    "actor_id": "actor_001",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 105,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-010",
+    "detected_at": "2026-03-20T09:48:29.235615",
+    "platform": "reddit",
+    "content_hash": "392647b871c942af",
+    "ai_probability": 0.303,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.626,
+    "cluster_id": null,
+    "actor_id": "user_019",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 313,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-008",
+    "detected_at": "2026-03-20T09:39:29.235580",
+    "platform": "facebook",
+    "content_hash": "154e7d429ea64955",
+    "ai_probability": 0.514,
+    "model_attribution": "unknown",
+    "model_confidence": "low",
+    "risk_level": "medium",
+    "harm_score": 0.286,
+    "cluster_id": null,
+    "actor_id": "bot_006",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 476,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-011",
+    "detected_at": "2026-03-20T07:34:29.235631",
+    "platform": "twitter",
+    "content_hash": "011b660ae2764362",
+    "ai_probability": 0.586,
+    "model_attribution": "llama",
+    "model_confidence": "high",
+    "risk_level": "medium",
+    "harm_score": 0.766,
+    "cluster_id": null,
+    "actor_id": "user_010",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 62,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-013",
+    "detected_at": "2026-03-20T07:16:29.235664",
+    "platform": "reddit",
+    "content_hash": "00751c3e732b44f1",
+    "ai_probability": 0.309,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.14,
+    "cluster_id": null,
+    "actor_id": "bot_015",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 52,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-007",
+    "detected_at": "2026-03-20T04:27:29.235552",
+    "platform": "facebook",
+    "content_hash": "ec94b47d314d48d3",
+    "ai_probability": 0.916,
+    "model_attribution": "palm",
+    "model_confidence": "low",
+    "risk_level": "critical",
+    "harm_score": 0.281,
+    "cluster_id": "CL-03",
+    "actor_id": "actor_004",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 265,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-019",
+    "detected_at": "2026-03-20T02:31:29.235774",
+    "platform": "twitter",
+    "content_hash": "d98f2e96a6874b66",
+    "ai_probability": 0.716,
+    "model_attribution": "claude",
+    "model_confidence": "low",
+    "risk_level": "high",
+    "harm_score": 0.203,
+    "cluster_id": "CL-07",
+    "actor_id": "actor_007",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 219,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-020",
+    "detected_at": "2026-03-20T01:15:29.235790",
+    "platform": "twitter",
+    "content_hash": "cce37b327c544608",
+    "ai_probability": 0.525,
+    "model_attribution": "palm",
+    "model_confidence": "low",
+    "risk_level": "medium",
+    "harm_score": 0.899,
+    "cluster_id": null,
+    "actor_id": "user_002",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 488,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-014",
+    "detected_at": "2026-03-20T01:05:29.235680",
+    "platform": "telegram",
+    "content_hash": "2216b578f7d44ba0",
+    "ai_probability": 0.872,
+    "model_attribution": "claude",
+    "model_confidence": "high",
+    "risk_level": "high",
+    "harm_score": 0.764,
+    "cluster_id": "CL-12",
+    "actor_id": "actor_009",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 287,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-004",
+    "detected_at": "2026-03-20T00:42:29.235475",
+    "platform": "facebook",
+    "content_hash": "bb2217f95e234053",
+    "ai_probability": 0.504,
+    "model_attribution": "unknown",
+    "model_confidence": "low",
+    "risk_level": "medium",
+    "harm_score": 0.11,
+    "cluster_id": null,
+    "actor_id": "bot_007",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 147,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-018",
+    "detected_at": "2026-03-20T00:35:29.235743",
+    "platform": "twitter",
+    "content_hash": "4d4f6a66a6834ceb",
+    "ai_probability": 0.797,
+    "model_attribution": "gpt-4",
+    "model_confidence": "low",
+    "risk_level": "high",
+    "harm_score": 0.271,
+    "cluster_id": "CL-05",
+    "actor_id": "actor_006",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 213,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-016",
+    "detected_at": "2026-03-20T00:29:29.235711",
+    "platform": "twitter",
+    "content_hash": "c1c7ef2792e1439d",
+    "ai_probability": 0.568,
+    "model_attribution": "unknown",
+    "model_confidence": "low",
+    "risk_level": "medium",
+    "harm_score": 0.847,
+    "cluster_id": null,
+    "actor_id": "user_028",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 475,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-015",
+    "detected_at": "2026-03-20T00:01:29.235696",
+    "platform": "telegram",
+    "content_hash": "28e17d72808b4a9f",
+    "ai_probability": 0.175,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.127,
+    "cluster_id": null,
+    "actor_id": "user_030",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 391,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-001",
+    "detected_at": "2026-03-19T23:53:29.235360",
+    "platform": "telegram",
+    "content_hash": "6b37ead9e1774e2a",
+    "ai_probability": 0.744,
+    "model_attribution": "llama",
+    "model_confidence": "medium",
+    "risk_level": "high",
+    "harm_score": 0.78,
+    "cluster_id": "CL-04",
+    "actor_id": "actor_004",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 62,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-017",
+    "detected_at": "2026-03-19T23:23:29.235726",
+    "platform": "twitter",
+    "content_hash": "1a7af15cd5bb4aca",
+    "ai_probability": 0.908,
+    "model_attribution": "palm",
+    "model_confidence": "medium",
+    "risk_level": "critical",
+    "harm_score": 0.714,
+    "cluster_id": "CL-11",
+    "actor_id": "actor_005",
+    "requires_review": true,
+    "metadata": {
+      "processing_time_ms": 442,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  },
+  {
+    "id": "DET-005",
+    "detected_at": "2026-03-19T21:13:29.235494",
+    "platform": "twitter",
+    "content_hash": "365a6306fa824019",
+    "ai_probability": 0.313,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.653,
+    "cluster_id": null,
+    "actor_id": "bot_018",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 427,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-009",
+    "detected_at": "2026-03-19T19:48:29.235599",
+    "platform": "reddit",
+    "content_hash": "d2feac03ad844bfc",
+    "ai_probability": 0.186,
+    "model_attribution": null,
+    "model_confidence": null,
+    "risk_level": "low",
+    "harm_score": 0.576,
+    "cluster_id": null,
+    "actor_id": "user_021",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 288,
+      "feature_count": 19,
+      "explanation_generated": false
+    }
+  },
+  {
+    "id": "DET-006",
+    "detected_at": "2026-03-19T16:55:29.235512",
+    "platform": "twitter",
+    "content_hash": "c2da46be355e4ef0",
+    "ai_probability": 0.509,
+    "model_attribution": "llama",
+    "model_confidence": "low",
+    "risk_level": "medium",
+    "harm_score": 0.298,
+    "cluster_id": null,
+    "actor_id": "user_008",
+    "requires_review": false,
+    "metadata": {
+      "processing_time_ms": 418,
+      "feature_count": 19,
+      "explanation_generated": true
+    }
+  }
+]

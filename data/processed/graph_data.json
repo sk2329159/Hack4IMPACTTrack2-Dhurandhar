@@ -1,0 +1,472 @@
+{
+  "nodes": [
+    {
+      "id": "actor:actor_001",
+      "type": "actor",
+      "label": "actor_001",
+      "risk_score": 0.73,
+      "platform": "4chan",
+      "post_count": 165
+    },
+    {
+      "id": "actor:actor_002",
+      "type": "actor",
+      "label": "actor_002",
+      "risk_score": 0.94,
+      "platform": "4chan",
+      "post_count": 39
+    },
+    {
+      "id": "actor:actor_003",
+      "type": "actor",
+      "label": "actor_003",
+      "risk_score": 0.87,
+      "platform": "twitter",
+      "post_count": 89
+    },
+    {
+      "id": "actor:actor_004",
+      "type": "actor",
+      "label": "actor_004",
+      "risk_score": 0.64,
+      "platform": "twitter",
+      "post_count": 89
+    },
+    {
+      "id": "actor:actor_005",
+      "type": "actor",
+      "label": "actor_005",
+      "risk_score": 0.8,
+      "platform": "telegram",
+      "post_count": 111
+    },
+    {
+      "id": "actor:actor_006",
+      "type": "actor",
+      "label": "actor_006",
+      "risk_score": 0.93,
+      "platform": "twitter",
+      "post_count": 29
+    },
+    {
+      "id": "actor:actor_007",
+      "type": "actor",
+      "label": "actor_007",
+      "risk_score": 0.81,
+      "platform": "4chan",
+      "post_count": 72
+    },
+    {
+      "id": "actor:actor_008",
+      "type": "actor",
+      "label": "actor_008",
+      "risk_score": 0.64,
+      "platform": "telegram",
+      "post_count": 185
+    },
+    {
+      "id": "content:1b706b56",
+      "type": "content",
+      "label": "Post 1",
+      "ai_probability": 0.85,
+      "harm_score": 0.55,
+      "timestamp": "2026-03-20T09:40:29.237957"
+    },
+    {
+      "id": "content:17cc2703",
+      "type": "content",
+      "label": "Post 2",
+      "ai_probability": 0.79,
+      "harm_score": 0.67,
+      "timestamp": "2026-03-18T15:40:29.237987"
+    },
+    {
+      "id": "content:6f38b192",
+      "type": "content",
+      "label": "Post 3",
+      "ai_probability": 0.72,
+      "harm_score": 0.76,
+      "timestamp": "2026-03-20T13:40:29.238001"
+    },
+    {
+      "id": "content:1ff0fc89",
+      "type": "content",
+      "label": "Post 4",
+      "ai_probability": 0.91,
+      "harm_score": 0.83,
+      "timestamp": "2026-03-20T01:40:29.238012"
+    },
+    {
+      "id": "content:19270d63",
+      "type": "content",
+      "label": "Post 5",
+      "ai_probability": 0.81,
+      "harm_score": 0.64,
+      "timestamp": "2026-03-18T04:40:29.238023"
+    },
+    {
+      "id": "content:b8032eef",
+      "type": "content",
+      "label": "Post 6",
+      "ai_probability": 0.88,
+      "harm_score": 0.67,
+      "timestamp": "2026-03-17T20:40:29.238039"
+    },
+    {
+      "id": "content:79937165",
+      "type": "content",
+      "label": "Post 7",
+      "ai_probability": 0.94,
+      "harm_score": 0.61,
+      "timestamp": "2026-03-17T18:40:29.238058"
+    },
+    {
+      "id": "content:12df94fe",
+      "type": "content",
+      "label": "Post 8",
+      "ai_probability": 0.89,
+      "harm_score": 0.69,
+      "timestamp": "2026-03-19T04:40:29.238071"
+    },
+    {
+      "id": "content:92ee2dec",
+      "type": "content",
+      "label": "Post 9",
+      "ai_probability": 0.78,
+      "harm_score": 0.6,
+      "timestamp": "2026-03-20T03:40:29.238081"
+    },
+    {
+      "id": "content:61936a55",
+      "type": "content",
+      "label": "Post 10",
+      "ai_probability": 0.77,
+      "harm_score": 0.68,
+      "timestamp": "2026-03-18T03:40:29.238091"
+    },
+    {
+      "id": "content:c5c24b5e",
+      "type": "content",
+      "label": "Post 11",
+      "ai_probability": 0.84,
+      "harm_score": 0.77,
+      "timestamp": "2026-03-18T19:40:29.238101"
+    },
+    {
+      "id": "content:7d8b62b9",
+      "type": "content",
+      "label": "Post 12",
+      "ai_probability": 0.71,
+      "harm_score": 0.84,
+      "timestamp": "2026-03-19T15:40:29.238111"
+    },
+    {
+      "id": "content:c8d55105",
+      "type": "content",
+      "label": "Post 13",
+      "ai_probability": 0.82,
+      "harm_score": 0.64,
+      "timestamp": "2026-03-19T05:40:29.238124"
+    },
+    {
+      "id": "content:246a92bb",
+      "type": "content",
+      "label": "Post 14",
+      "ai_probability": 0.79,
+      "harm_score": 0.85,
+      "timestamp": "2026-03-19T03:40:29.238144"
+    },
+    {
+      "id": "content:f951b08b",
+      "type": "content",
+      "label": "Post 15",
+      "ai_probability": 0.84,
+      "harm_score": 0.71,
+      "timestamp": "2026-03-19T14:40:29.238158"
+    },
+    {
+      "id": "cluster:CL-01",
+      "type": "cluster",
+      "label": "Campaign 1",
+      "member_count": 3,
+      "coherence_score": 0.67,
+      "first_seen": "2026-03-13T15:40:29.238168"
+    },
+    {
+      "id": "cluster:CL-02",
+      "type": "cluster",
+      "label": "Campaign 2",
+      "member_count": 6,
+      "coherence_score": 0.77,
+      "first_seen": "2026-03-16T15:40:29.238176"
+    },
+    {
+      "id": "cluster:CL-03",
+      "type": "cluster",
+      "label": "Campaign 3",
+      "member_count": 8,
+      "coherence_score": 0.74,
+      "first_seen": "2026-03-08T15:40:29.238183"
+    },
+    {
+      "id": "cluster:CL-04",
+      "type": "cluster",
+      "label": "Campaign 4",
+      "member_count": 6,
+      "coherence_score": 0.73,
+      "first_seen": "2026-03-19T15:40:29.238188"
+    },
+    {
+      "id": "cluster:CL-05",
+      "type": "cluster",
+      "label": "Campaign 5",
+      "member_count": 3,
+      "coherence_score": 0.69,
+      "first_seen": "2026-03-13T15:40:29.238194"
+    }
+  ],
+  "links": [
+    {
+      "source": "actor:actor_004",
+      "target": "content:1b706b56",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_005",
+      "target": "content:17cc2703",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_006",
+      "target": "content:6f38b192",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_008",
+      "target": "content:1ff0fc89",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_006",
+      "target": "content:19270d63",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_007",
+      "target": "content:b8032eef",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_006",
+      "target": "content:79937165",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_006",
+      "target": "content:12df94fe",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_008",
+      "target": "content:92ee2dec",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_005",
+      "target": "content:61936a55",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_005",
+      "target": "content:c5c24b5e",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_005",
+      "target": "content:7d8b62b9",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_004",
+      "target": "content:c8d55105",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_002",
+      "target": "content:246a92bb",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "actor:actor_004",
+      "target": "content:f951b08b",
+      "type": "authored",
+      "weight": 1
+    },
+    {
+      "source": "content:1b706b56",
+      "target": "cluster:CL-05",
+      "type": "belongs_to",
+      "weight": 0.98
+    },
+    {
+      "source": "content:6f38b192",
+      "target": "cluster:CL-04",
+      "type": "belongs_to",
+      "weight": 0.64
+    },
+    {
+      "source": "content:1ff0fc89",
+      "target": "cluster:CL-05",
+      "type": "belongs_to",
+      "weight": 0.8
+    },
+    {
+      "source": "content:79937165",
+      "target": "cluster:CL-03",
+      "type": "belongs_to",
+      "weight": 0.59
+    },
+    {
+      "source": "content:12df94fe",
+      "target": "cluster:CL-05",
+      "type": "belongs_to",
+      "weight": 0.56
+    },
+    {
+      "source": "content:92ee2dec",
+      "target": "cluster:CL-01",
+      "type": "belongs_to",
+      "weight": 0.78
+    },
+    {
+      "source": "content:c5c24b5e",
+      "target": "cluster:CL-04",
+      "type": "belongs_to",
+      "weight": 0.55
+    },
+    {
+      "source": "content:7d8b62b9",
+      "target": "cluster:CL-03",
+      "type": "belongs_to",
+      "weight": 0.73
+    },
+    {
+      "source": "content:c8d55105",
+      "target": "cluster:CL-02",
+      "type": "belongs_to",
+      "weight": 0.98
+    },
+    {
+      "source": "content:246a92bb",
+      "target": "cluster:CL-04",
+      "type": "belongs_to",
+      "weight": 0.56
+    },
+    {
+      "source": "content:f951b08b",
+      "target": "cluster:CL-04",
+      "type": "belongs_to",
+      "weight": 0.54
+    },
+    {
+      "source": "actor:actor_001",
+      "target": "actor:actor_002",
+      "type": "coordinated",
+      "weight": 0.47
+    },
+    {
+      "source": "actor:actor_005",
+      "target": "actor:actor_001",
+      "type": "coordinated",
+      "weight": 0.9
+    },
+    {
+      "source": "actor:actor_002",
+      "target": "actor:actor_005",
+      "type": "coordinated",
+      "weight": 0.78
+    },
+    {
+      "source": "actor:actor_004",
+      "target": "actor:actor_007",
+      "type": "coordinated",
+      "weight": 0.66
+    },
+    {
+      "source": "actor:actor_008",
+      "target": "actor:actor_004",
+      "type": "coordinated",
+      "weight": 0.55
+    },
+    {
+      "source": "actor:actor_007",
+      "target": "actor:actor_003",
+      "type": "coordinated",
+      "weight": 0.68
+    },
+    {
+      "source": "actor:actor_001",
+      "target": "actor:actor_005",
+      "type": "coordinated",
+      "weight": 0.88
+    },
+    {
+      "source": "actor:actor_002",
+      "target": "actor:actor_007",
+      "type": "coordinated",
+      "weight": 0.5
+    },
+    {
+      "source": "actor:actor_004",
+      "target": "actor:actor_003",
+      "type": "coordinated",
+      "weight": 0.73
+    },
+    {
+      "source": "actor:actor_003",
+      "target": "actor:actor_002",
+      "type": "coordinated",
+      "weight": 0.49
+    },
+    {
+      "source": "cluster:CL-01",
+      "target": "cluster:CL-02",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "cluster:CL-04",
+      "target": "cluster:CL-05",
+      "type": "related",
+      "weight": 0.42
+    },
+    {
+      "source": "cluster:CL-02",
+      "target": "cluster:CL-03",
+      "type": "related",
+      "weight": 0.58
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-20T15:40:29.238318",
+    "node_count": 28,
+    "link_count": 39,
+    "actor_count": 8,
+    "content_count": 15,
+    "cluster_count": 5
+  }
+}
