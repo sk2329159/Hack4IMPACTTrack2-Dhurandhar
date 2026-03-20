@@ -106,17 +106,21 @@ npm run dev
 Dashboard:
 
 http://localhost:5173
+
 ### 3) Quick API Test Flow (Manual)
-Login → get JWT
-Call /detect with Authorization header
-Call /dashboard/overview to populate KPIs/graph/trends
+1.Login → get JWT
+2.Call /detect with Authorization header
+3.Call /dashboard/overview to populate KPIs/graph/trends
+
 Demo Flow (Judging)
-Login (analyst role)
-Paste suspicious narrative into “Analyze Content”
-View AI probability, attribution, risk level, explanation
-Dashboard updates: KPIs + recent detections + trends + campaign graph
-Repeat with multiple samples to show cluster/campaign behavior
-Credits / Attributions
+
+1.Login (analyst role)
+2.Paste suspicious narrative into “Analyze Content”
+3.View AI probability, attribution, risk level, explanation
+4.Dashboard updates: KPIs + recent detections + trends + campaign graph
+5.Repeat with multiple samples to show cluster/campaign behavior
+
+### Credits / Attributions
 This project may use open-source libraries, pre-trained models, and public datasets. All sources and dependencies will be credited in documentation and final submission notes.
 
 License
