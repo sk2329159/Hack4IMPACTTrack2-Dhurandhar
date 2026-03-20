@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   db:
     image: postgres:15
@@ -12,7 +10,6 @@ services:
       - pgdata:/var/lib/postgresql/data
     networks:
       - internal
-    # NO ports: block — DB is never exposed to the host or public internet
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U sentinel -d sentineldb"]
       interval: 5s
@@ -28,11 +25,11 @@ services:
       - "8000:8000"
     depends_on:
       db:
-        condition: service_healthy    # waits for pg_isready, not just container start
+        condition: service_healthy
     networks:
       - internal
     command: >
-      sh -c "alembic upgrade head && uvicorn api.main:app --host 0.0.0.0 --port 8000 --workers 2"
+      sh -c "alembic upgrade head && uvicorn api.main:app --host 0.0.0.0 --port 8000 --workers 1"
 
 networks:
   internal:
