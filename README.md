@@ -1,6 +1,6 @@
 # SENTINEL-AI  
-## Deployed link : https://sentinel-ai-liart.vercel.app/
 # Hack4IMPACTTrack2-Dhurandhar
+## Deployed link : https://sentinel-ai-liart.vercel.app/
 
 ## Demo Video link: https://drive.google.com/file/d/1zrTNBui6t3xlpaXmf4_Jmq5Wfb86fjOl/view?usp=sharing
 
