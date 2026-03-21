@@ -2,6 +2,8 @@
 ## Deployed link : https://sentinel-ai-liart.vercel.app/
 # Hack4IMPACTTrack2-Dhurandhar
 
+## Demo Video link: https://drive.google.com/file/d/1zrTNBui6t3xlpaXmf4_Jmq5Wfb86fjOl/view?usp=sharing
+
 Hack4Impact 2025 — Track 2  
 Domain: **Cybersecurity & Ethical AI Systems**
 
